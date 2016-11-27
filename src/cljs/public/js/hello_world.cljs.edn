@@ -1,0 +1,5 @@
+{:id "dev"
+ :require  [query.core]
+ :compiler-options {:asset-path "js/hello_world.out"
+                    :optimizations :none
+                    :source-map true}}

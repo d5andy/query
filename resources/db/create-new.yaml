@@ -1,0 +1,25 @@
+databaseChangeLog:
+
+  - changeSet:
+      id: create_news
+      author: d5andy
+      changes:
+        - createTable:
+            tableName: NEWS
+            columns:
+
+              - column:
+                  name: DATE
+                  type: varchar(2048)
+
+              - column:
+                  name: URL
+                  type: varchar(2048)
+
+              - column:
+                  name: TITLE
+                  type: varchar(2048)
+
+              - column:
+                  name: BODY
+                  type: varchar(2048)
